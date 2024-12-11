@@ -9,5 +9,6 @@ Telegram username: @SecretSanta_SETpr_Bot
 
 Кроки для запуску бота:
 1. Запустити Redis CLI через команду в терміналі.
-2. Запустити файл secretsanta_setpr_bot_final.py.
-3. Ввести у Telegram пошук @SecretSanta_SETpr_Bot і натиснути "START".
+2. Відкрити файл secretsanta_setpr_bot_final.py та замінити плейсхолдер "TG_TOKEN_GOES_HERE" у 12 та 90 рядку на токен у assignment response на LMS платформі.
+3. Запустити файл secretsanta_setpr_bot_final.py.
+4. Ввести у Telegram пошук @SecretSanta_SETpr_Bot і натиснути "START".
