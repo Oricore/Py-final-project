@@ -9,7 +9,7 @@ from telegram.ext import (
     ContextTypes
 )
 
-TOKEN: Final = '7821094644:AAHcQ84QSZSKWMFDLUKSWuOXZ5EJd2f7Q5Y'
+TOKEN: Final = 'TG_TOKEN_GOES_HERE'
 BOT_USERNAME: Final = '@SecretSanta_SETpr_Bot'
 redis_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)
 
@@ -87,7 +87,7 @@ async def assign_pairs(update: Update, context):
 
 
 if __name__ == "__main__":
-    application = Application.builder().token("7821094644:AAHcQ84QSZSKWMFDLUKSWuOXZ5EJd2f7Q5Y").build()
+    application = Application.builder().token("TG_TOKEN_GOES_HERE").build()
 
     # Commands
     application.add_handler(CommandHandler("start", start))
